@@ -1,17 +1,18 @@
 {
   "name": "epscor/ercore_boot",
-  "description": "ERCore base theme",
-  "type": "drupal-module",
+  "description": "Modules for EPSCoR reporting.",
+  "type": "drupal-theme",
   "license": "GPL-2.0+",
   "repositories": [
     {
-      "type": "vcs",
-      "url": "git@github.com:EPSCoR/ercore_theming.git"
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
     }
   ],
-  "require": {
-    "epscor/ercore_theming": "^1.0"
-  },
+  "require": {},
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
 }
