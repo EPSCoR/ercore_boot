@@ -1,0 +1,17 @@
+{
+  "name": "epscor/ercore_boot",
+  "description": "ERCore base theme",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:EPSCoR/ercore_theming.git"
+    }
+  ],
+  "require": {
+    "epscor/ercore_theming": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
