@@ -1,0 +1,176 @@
+/* Mixins and variables */
+@import "mixins";
+/* Basic Styles */
+@import "base";
+/* ERCore Specific Styles */
+@import "ercore";
+
+body {
+  min-height: 100%;
+  height: auto;
+}
+
+/* Sidebars */
+#ercore-nav-toggle {
+  padding: 7px 15px;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: $dark-primary;
+}
+
+#ercore-nav {
+  font-size: .9em;
+  padding-top: 72px;
+  border-right: 2px solid red;
+  border-right: 2px solid #15878e;
+  background-color: black;
+  color: #FFF;
+  width: 300px;
+}
+
+#ercore-nav {
+  @include border(3px, border-right, $primary);
+
+  h2 {
+    color: #29d5e0;
+    font-size: 1.5em;
+    margin-left: 15px;
+  }
+
+  .nav > li > a {
+    padding: 0 15px;
+    background-color: transparent;
+  }
+
+  a {
+    &:link, &:visited {
+      color: #FFF;
+    }
+
+    &:hover, &:active, &:focus {
+      color: #CCC;
+      text-decoration: underline;
+    }
+  }
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #333;
+  }
+  .contextual-links a {
+    &:link, &:visited {
+      color: #000;
+    }
+
+    &:hover, &:active, &:focus {
+      color: #888;
+    }
+  }
+  ul.menu {
+    padding-left: 15px;
+    font-weight: bold;
+  }
+
+  ul.menu ul.sub {
+    list-style: none;
+    font-weight: normal;
+  }
+
+  ul.menu ul.sub ul {
+    padding-left: 15px;
+  }
+}
+
+#ercore-nav-toggle {
+  @include box-shadow(-5px, 5px, 15px, 0, #666, false);
+}
+
+#body-wrap {
+  @include border(4px, border-left, $dark-primary);
+}
+
+[canvas=container],
+[off-canvas] {
+  padding: 10px 20px;
+}
+
+[class*=js-] {
+  cursor: pointer;
+}
+
+#block-ercore-boot-main-menu {
+  border-bottom: 2px solid $primary;
+
+  .navbar-nav {
+
+    a {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: $primary;
+    }
+  }
+}
+
+#block-ercoreadminmenu {
+  border-bottom: 2px solid #CCC;
+
+  .nav > li > a  {
+    padding: 5px 15px;
+  }
+}
+
+#block-ercoreadminmenu , #block-ercore-boot-main-menu {
+
+  .navbar-nav {
+    float: none;
+
+    & > li {
+      float: none;
+    }
+  }
+
+  ul.nav {
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+.sb-site-target .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.region-navigation ul.nav {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.views-exposed-form {
+  .form-item {
+    margin: 3px 5px;
+  }
+  .form-item-field-ercore-user-partic-inst-target-id  select {
+    width: 150px;
+  }
+}
+
+.collaboration-dates {
+  font-weight: bold;
+}
+.view-content h2 {
+  font-size: 1.4em;
+}
+
+.field--label-inline {
+  .field__label {
+    display: inline;
+    font-weight: bold;
+  }
+}

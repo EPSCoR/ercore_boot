@@ -1,0 +1,304 @@
+/* ERCore Specific Styles */
+
+h2.list-title,
+h3.list-title,
+.h2.list-title,
+div.external-engagement-data h2 {
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
+h2.label-plain, h3.label-plain {
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 3px 0 0;
+  margin: 0;
+  color: #000;
+}
+
+.field {
+  h2.label-above {
+    font-size: 1.3em;
+  }
+}
+
+.view-mode-referenced h3, .list-row {
+  margin-top: 0;
+}
+
+.list-row {
+  @include border(1px, border-top, $gray);
+  padding: 5px 10px 20px;
+  .btn-default {
+    float: right;
+    margin-left: 5px;
+  }
+  &.even {
+    background-color: $background;
+  }
+  &.first {
+    border-top: none;
+    h3 {
+      margin-top: 0;
+    }
+    p.title, p {
+      margin-bottom: 0;
+    }
+  }
+  &.rows-counted {
+    .counter {
+      float: left;
+      @include heading;
+      font-size: 2em;
+      color: $gray;
+      margin-top: 12px;
+    }
+    .counted {
+      padding-left: 50px;
+    }
+  }
+}
+
+.person-list.row .list-row {
+  @include border(1px, border-top, $gray);
+  min-height: 10em;
+}
+
+.person-list.row.participant .list-row {
+  min-height: inherit;
+}
+
+.ercore-view {
+  .form-item, .views-exposed-widget {
+    label {
+      margin-bottom: 0;
+      &.control-label {
+        display: block;
+      }
+    }
+    .form-control {
+      display: inline;
+      width: auto;
+    }
+  }
+}
+
+.field-inline ul {
+  padding-left: 5px;
+  margin-bottom: 0;
+  display: inline;
+  list-style: none;
+}
+
+.field-inline ul li {
+  display: inline;
+  padding: 0;
+}
+
+.field-inline ul li:after {
+  content: ",\0020";
+}
+
+.field-inline ul li:last-child:after {
+  content: "";
+}
+
+.field-inline ul li:nth-last-child(2):after {
+  content: "\0020 and \0020";
+}
+
+.list-inline.external {
+  li {
+    span.label-inline {
+      font-weight: bold;
+    }
+  }
+  li + li {
+    border-left: 1px solid $gray;
+    margin-left: 7px;
+    padding-left: 7px;
+  }
+}
+
+.date {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.view-mode-teaser_alternate {
+  .field-name-field-ercore-ev-engagement {
+    margin-top: 7px;
+  }
+}
+
+.view-mode-full {
+  .date {
+    margin-bottom: 15px;
+  }
+  .field-name-field-ercore-organizer {
+    margin: 10px 0;
+  }
+  .field-label-above {
+    margin-top: 10px;
+  }
+}
+
+.teaser-date {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.list-date {
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.image-div .ds-1col {
+  display: inline-block;
+}
+
+.person {
+  .name {
+    font-weight: bold;
+  }
+  &.user-row {
+    margin-top: 7px;
+  }
+}
+
+.organizers {
+  margin: 7px 0;
+}
+/* breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #000;
+  content: "/\00a0";
+}
+
+.breadcrumb > .active {}
+
+ul.collaborator-list,
+div.participant-list ul,
+div.participant-list h3 {
+  margin-left: 36px;
+}
+
+div.participant-list h3 {
+  margin-top: 5px;
+}
+
+.e-user-name {
+  font-size: 1.1em;
+  font-weight: bold;
+  @include border(1px, border-bottom);
+}
+
+.colloborating-name {
+  font-weight: bold;
+}
+
+.profile-row {
+  min-height: 12em;
+}
+
+.engagement-add {
+  padding-top: 10px;
+}
+
+/* fields */
+.featured-field {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Views Exposed Filters */
+select#edit-field-er-program-target-id {
+  width: 20em;
+}
+
+.views-exposed-widgets {
+  select#edit-field-ercore-cr-inst-ref-target-id {
+    width: 20em;
+  }
+}
+
+#edit-field-er-inst-ref-target-id {
+  width: 15em;
+
+}
+
+#edit-field-er-publication-type-value {
+  width: 10em;
+}
+
+.view-header {
+  margin: -10px 0 10px;
+  font-size: 1.1em;
+  font-style: italic;
+  border-bottom: dashed 1px $gray;
+  padding-bottom: 7px;
+}
+
+.ercore-summary-page {
+  .view-empty {
+    margin-bottom: 36px;
+  }
+}
+
+.field-name-field-ercore-us-phone-personal, .field-name-field-ercore-us-address {
+  overflow: hidden;
+  &:before {
+    display: inherit;
+    content: inherit;
+  }
+  &:after {
+    clear: inherit;
+  }
+}
+
+.row.profile-row {
+  @include border(1px, border-bottom, $gray);
+  padding: 10px 0;
+  .profile-nav {
+    ul {
+      @include border(1px, border-right, #CCC);
+    }
+  }
+}
+
+.tab-content fieldset.group-ercore-us-d-certs {
+  margin-top: 15px;
+}
+
+.grouped-items {
+  .label-inline {
+    font-weight: bold;
+  }
+  & + .grouped-items {
+    margin-top: 12px;
+  }
+}
+
+.view {
+  &.view-ercore-participant-testing {
+    .views-exposed-widget {
+      height: 6em;
+    }
+  }
+}
+
+#edit-filter-type {
+  .radio + .radio {
+    margin-top: 10px;
+  }
+}

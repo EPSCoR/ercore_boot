@@ -1,0 +1,12 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/ercore-boot.js: {}
+slidebars:
+  css:
+    theme:
+      css/slide-menu.css: {}
+  js:
+    js/slide-menu.js: {}
