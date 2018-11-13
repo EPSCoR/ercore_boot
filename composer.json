@@ -9,7 +9,9 @@
       "url": "https://packages.drupal.org/8"
     }
   ],
-  "require": {},
+  "require": {
+    "drupal/bootstrap": "^3.14",
+  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
