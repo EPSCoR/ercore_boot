@@ -194,15 +194,15 @@ a { color: #0e5d62; }
 
 [class*=js-] { cursor: pointer; }
 
-#block-ercore-boot-main-menu { border-bottom: 2px solid #15878e; }
-#block-ercore-boot-main-menu .navbar-nav a { font-weight: bold; font-size: 1.2em; color: #15878e; }
+#block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation { border-bottom: 2px solid #15878e; }
+#block-ercore-boot-main-menu .navbar-nav a, #block-ercore-boot-mainnavigation .navbar-nav a { font-weight: bold; font-size: 1.2em; color: #15878e; }
 
 #block-ercoreadminmenu { border-bottom: 2px solid #CCC; }
 #block-ercoreadminmenu .nav > li > a { padding: 5px 15px; }
 
-#block-ercoreadminmenu .navbar-nav, #block-ercore-boot-main-menu .navbar-nav { float: none; }
-#block-ercoreadminmenu .navbar-nav > li, #block-ercore-boot-main-menu .navbar-nav > li { float: none; }
-#block-ercoreadminmenu ul.nav li, #block-ercore-boot-main-menu ul.nav li { display: inline-block; }
+#block-ercoreadminmenu .navbar-nav, #block-ercore-boot-main-menu .navbar-nav, #block-ercore-boot-mainnavigation .navbar-nav { float: none; }
+#block-ercoreadminmenu .navbar-nav > li, #block-ercore-boot-main-menu .navbar-nav > li, #block-ercore-boot-mainnavigation .navbar-nav > li { float: none; }
+#block-ercoreadminmenu ul.nav li, #block-ercore-boot-main-menu ul.nav li, #block-ercore-boot-mainnavigation ul.nav li { display: inline-block; }
 
 .sb-site-target .navbar-default { background-color: transparent; border: none; }
 

@@ -99,7 +99,7 @@ a {
   cursor: pointer;
 }
 
-#block-ercore-boot-main-menu {
+#block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
   border-bottom: 2px solid $primary;
 
   .navbar-nav {
@@ -120,7 +120,7 @@ a {
   }
 }
 
-#block-ercoreadminmenu , #block-ercore-boot-main-menu {
+#block-ercoreadminmenu , #block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
 
   .navbar-nav {
     float: none;
