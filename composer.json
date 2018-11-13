@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "drupal/bootstrap": "^3.14",
+    "drupal/bootstrap": "^3.14"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
