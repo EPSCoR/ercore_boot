@@ -219,4 +219,10 @@ a { color: #0e5d62; }
 
 .field--label-inline .field__label { display: inline; font-weight: bold; }
 
+.title-row .region-header { display: flex; }
+.title-row .region-header .logo { margin-bottom: 15px; }
+.title-row .region-header .name { align-self: flex-end; }
+
+.main-container { margin-left: 50px; }
+
 /*# sourceMappingURL=style.css.map */

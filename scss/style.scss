@@ -174,3 +174,17 @@ a {
     font-weight: bold;
   }
 }
+
+.title-row .region-header {
+  display: flex;
+
+  .logo {
+    margin-bottom: 15px;
+  }
+  .name {
+    align-self: flex-end;
+  }
+}
+.main-container {
+  margin-left: 50px;
+}
