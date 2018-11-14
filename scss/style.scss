@@ -99,45 +99,6 @@ a {
   cursor: pointer;
 }
 
-#block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
-  border-bottom: 2px solid $primary;
-
-  .navbar-nav {
-
-    a {
-      font-weight: bold;
-      font-size: 1.2em;
-      color: $primary;
-    }
-  }
-}
-
-#block-ercoreadminmenu {
-  border-bottom: 2px solid #CCC;
-
-  .nav > li > a  {
-    padding: 5px 15px;
-  }
-}
-
-#block-ercoreadminmenu , #block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
-
-  .navbar-nav {
-    float: none;
-
-    & > li {
-      float: none;
-    }
-  }
-
-  ul.nav {
-
-    li {
-      display: inline-block;
-    }
-  }
-}
-
 .sb-site-target .navbar-default {
   background-color: transparent;
   border: none;
@@ -188,4 +149,60 @@ a {
 
 .navbar-default .navbar-header {
   float: none;
+}
+#block-ercoreadminmenu , #block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
+  .navbar-nav {
+    margin: 7.5px -15px;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+  /* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  #navbar-collapse nav {
+    text-align: center;
+  }
+
+  #block-ercoreadminmenu , #block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
+
+    .navbar-nav {
+      float: none;
+
+      & > li {
+        float: none;
+      }
+    }
+
+    ul.nav {
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  #block-ercoreadminmenu {
+    border-bottom: 2px solid #CCC;
+
+    .nav > li > a  {
+      padding: 5px 15px;
+    }
+  }
+
+  #block-ercore-boot-main-menu, #block-ercore-boot-mainnavigation {
+    border-bottom: 2px solid $primary;
+
+    .navbar-nav {
+         margin: 7.5px -15px;
+
+      a {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: $primary;
+      }
+    }
+  }
 }
