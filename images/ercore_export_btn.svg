@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="39.350117mm"
+   height="4.7624998mm"
+   viewBox="0 0 39.350116 4.7624998"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (1:1.1+202205011109+08b2f3d93c)"
+   sodipodi:docname="ercore_export_btn.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="5.1241863"
+     inkscape:cx="56.106469"
+     inkscape:cy="42.445764"
+     inkscape:window-width="1847"
+     inkscape:window-height="1016"
+     inkscape:window-x="73"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.397118,-125.6208)">
+    <g
+       id="g8623">
+      <rect
+         style="fill:#3b809d;fill-opacity:1;stroke:none;stroke-width:0.0545596;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="rect870"
+         width="39.350117"
+         height="4.7624998"
+         x="53.397118"
+         y="125.6208"
+         rx="1.3538898"
+         ry="1.3538898" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.50912px;line-height:1.25;font-family:'Vitesse Sans';-inkscape-font-specification:'Vitesse Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.43864"
+         x="54.149284"
+         y="129.0197"
+         id="text3856"><tspan
+           sodipodi:role="line"
+           id="tspan3854"
+           style="fill:#ffffff;stroke-width:0.43864"
+           x="54.149284"
+           y="129.0197">Export Filtered Results</tspan></text>
+    </g>
+  </g>
+</svg>
